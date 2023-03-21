@@ -22,5 +22,4 @@ public class FindMinMax {
         }
         minMaxConsumer.accept(min, max);
     }
-
 }

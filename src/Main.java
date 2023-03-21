@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public  class Main {
+public class Main {
     public static void main(String[] args) {
         Stream<Integer> stream = new ArrayList<>(Arrays.asList(1, 2, 4, 6, 8, 17, 33)).stream();
 
@@ -18,6 +18,7 @@ public  class Main {
         stream.close();
 
         //Задание 2
+
         System.out.println("Количество четных чисел " + countEvenNumber(stream.collect(Collectors.toList())));
     }
 
